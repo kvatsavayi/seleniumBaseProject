@@ -1,0 +1,257 @@
+{
+  "availableActions": "addModule, removeModule, removeAllModules, setPotis, replaceModule",
+  "simulatorCases": [
+    {
+      "name": "Wanted typeKey: PNOZsmart.13.CKB550EB500AA055EB500",
+      "id": 1,
+      "description": "Add 4 modules to the AT",
+      "numberOfTypeIDs": 4,
+      "actionsList": [
+        {
+          "action": "addModule",
+          "module": "KB550",
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "AA055",
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+        {
+          "action": "removeModule",
+          "actionConfig": {
+            "position": 2,
+            "module": "AA055"
+          },
+          "delay": 2000
+        }
+      ]
+    },
+    {
+      "name": "Wanted typeKey: PNOZsmart.13.CKB550EB700AA055EB500",
+      "id": 2,
+      "description": "Add 4 modules and change poti setting.",
+      "numberOfTypeIDs": 4,
+      "actionsList": [
+        {
+          "action": "addModule",
+          "module": "KB550",
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "AA055",
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+        {
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EB500",
+            "newValue": "EB700"
+          },
+          "delay": 2000
+        }
+      ]
+    },
+    {
+      "name": "Wanted typeKey: PNOZsmart.13.CKB550EB700AA055EB500",
+      "id": 3,
+      "description": "Add 4 modules and change poti after each adding.",
+      "numberOfTypeIDs": 4,
+      "actionsList": [
+        {
+          "action": "addModule",
+          "module": "KB550",
+          "delay": 2000
+        },
+        {
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KB550",
+            "newValue": "KB600"
+          },
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+        {
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EB500",
+            "newValue": "EB700"
+          },
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "AA055",
+          "delay": 2000
+        },
+        {
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 2,
+            "module": "AA055",
+            "newValue": "AA060"
+          },
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+        {
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 3,
+            "module": "EB500",
+            "newValue": "EB700"
+          },
+          "delay": 2000
+        }
+      ]
+    },
+    {
+      "name": "Wanted typeKey: PNOZsmart.13.CKB550EB700AA055EB500",
+      "id": 4,
+      "description": "Add modules, set potentiometer and replace one module.",
+      "numberOfTypeIDs": 5,
+      "actionsList": [
+        {
+          "action": "addModule",
+          "module": "KB550EB700AA055EB500",
+          "delay": 2000
+        },
+        {
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EB700",
+            "newValue": "EB500"
+          },
+          "delay": 2000
+        },
+        {
+          "action": "replaceModule",
+          "actionConfig": {
+            "position": 2,
+            "module": "AA055",
+            "newValue": "EB500"
+          },
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "AA055",
+          "delay": 2000
+        }
+      ]
+    },
+    {
+      "name": "Wanted typeKey: PNOZsmart.13.CKB550EB500XA500",
+      "id": 5,
+      "description": "Add modules, set potentiometer and replace one module.",
+      "numberOfTypeIDs": 3,
+      "actionsList": [
+        {
+          "action": "addModule",
+          "module": "KB550",
+          "delay": 2000
+        },
+        {
+          "action": "removeModule",
+          "actionConfig": {
+            "position": 0,
+            "module": "KB550"
+          },
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+        {
+          "action": "removeModule",
+          "actionConfig": {
+            "position": 0,
+            "module": "EB500"
+          },
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "XA500",
+          "delay": 2000
+        },
+        {
+          "action": "removeModule",
+          "actionConfig": {
+            "position": 0,
+            "module": "XA500"
+          },
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "KB550EB500XA500",
+          "delay": 2000
+        },
+        {
+          "action": "replaceModule",
+          "actionConfig": {
+            "position": 1,
+            "module": "EB500",
+            "newValue": "EC700"
+          },
+          "delay": 2000
+        },
+        {
+          "action": "removeAllModules",
+          "delay": 2000
+        },
+        {
+          "action": "addModule",
+          "module": "KB550EC700XA500",
+          "delay": 2000
+        },
+        {
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 2,
+            "module": "XA500",
+            "newValue": "XA700"
+          },
+          "delay": 2000
+        }
+      ]
+    }
+  ]
+}

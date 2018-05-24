@@ -1,0 +1,41 @@
+{"config": [
+    {
+      "plant": "Cork",
+      "station": "One",
+      "localCulture": "ie-en"
+    },
+    {
+      "plant": "Cork",
+      "station": "Two",
+      "localCulture": "ie-en"
+    },
+    {
+      "plant": "Cork",
+      "station": "Three",
+      "localCulture": "ie-en"
+    }
+  ],
+    "pool": [
+        {
+            "retStatus": false,
+            "serialNumber": "SN12300001",
+            "status": "OK",
+            "stateLocLng": "This is a business failure",
+            "retFaultDescr": {
+                "retMessageClass": "B",
+                "retMessageId": 331
+            }
+        },
+        {
+            "retStatus": false,
+            "serialNumber": "SN12300002",
+            "status": "OK",
+            "stateLocLng": "This is a system failure",
+            "retFaultDescr": {
+                "retMessageClass": "S",
+                "retMessageId": 477
+            }
+        }
+    ],
+    "inProgress": []
+}

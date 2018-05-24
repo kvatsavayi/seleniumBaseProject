@@ -1,0 +1,706 @@
+
+{
+	"pool": [{
+		"serialNumber": "SN:1",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:1",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:2",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:2",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:3",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:3",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:4",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:4",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:5",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:5",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:6",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:6",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:7",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:7",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:8",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:8",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:9",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:9",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:10",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:10",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:11",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:11",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:12",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:12",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:13",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:13",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:14",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:14",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:15",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:15",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:16",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:16",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:17",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:17",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:18",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:18",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:19",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:19",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:20",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:20",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:21",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:21",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:22",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:22",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:23",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:23",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:24",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:24",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:25",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:25",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:26",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:26",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:27",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:27",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:28",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:28",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:29",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:29",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:30",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:30",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:31",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:31",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:32",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:32",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:33",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:33",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:34",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:34",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:35",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:35",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:36",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:36",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:37",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:37",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:38",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:38",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:39",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:39",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:40",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:40",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:41",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:41",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:42",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:42",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:43",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:43",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:44",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:44",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:45",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:45",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:46",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:46",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:47",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:47",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:48",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:48",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:49",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:49",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:50",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:50",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:51",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:51",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:52",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:52",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:53",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:53",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:54",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:54",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:55",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:55",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:56",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:56",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:57",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:57",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:58",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:58",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:59",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:59",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:60",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:60",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:61",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:61",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:62",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:62",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:63",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:63",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:64",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:64",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:65",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:65",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:66",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:66",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:67",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:67",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:68",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:68",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:69",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:69",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:70",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:70",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:71",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:71",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:72",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:72",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:73",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:73",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:74",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:74",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:75",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:75",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:76",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:76",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:77",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:77",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:78",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:78",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:79",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:79",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:80",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:80",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:81",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:81",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:82",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:82",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:83",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:83",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:84",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:84",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:85",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:85",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:86",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:86",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:87",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:87",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:88",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:88",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:89",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:89",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:90",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:90",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:91",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:91",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:92",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:92",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:93",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:93",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:94",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:94",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:95",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+		"OrderNumber": "ON:95",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:96",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:96",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:97",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:97",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:98",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+		"OrderNumber": "ON:98",
+		"status": "OK"
+	},
+	{
+		"serialNumber": "SN:99",
+		"retStatus": true,
+		"TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+		"OrderNumber": "ON:99",
+		"status": "OK"
+	}],
+	
+
+  "config": [
+	{
+		"plant": "Cork",
+		"station": "One",
+		"localCulture": "ie-en"
+	}
+],
+  "inProgress": []
+}

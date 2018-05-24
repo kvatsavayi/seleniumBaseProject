@@ -1,0 +1,232 @@
+{
+  "config": [
+    {
+      "plant": "Cork",
+      "station": "One",
+      "localCulture": "ie-en"
+    },
+    {
+      "plant": "Cork",
+      "station": "Two",
+      "localCulture": "ie-en"
+    },
+    {
+      "plant": "Cork",
+      "station": "Three",
+      "localCulture": "ie-en"
+    }
+  ],
+  "pool": [
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300001",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.CKB490EC900XA454",
+      "OrderNumber": "ON000000001"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300002",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.28.SKB640EB400ED200AC024EA780AD000XC777EB500AD000",
+      "OrderNumber": "ON000000002"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300003",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.NKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000003"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300004",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.15.SKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000004"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300005",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.CKB490EC900XA454",
+      "OrderNumber": "ON000000005"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300006",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.28.SKB640EB400ED200AC024EA780AD000XC777EB500AD000",
+      "OrderNumber": "ON000000006"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300007",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.NKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000007"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300008",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.15.SKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000008"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300009",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.CKB490EC900XA454",
+      "OrderNumber": "ON000000009"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300010",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.28.SKB640EB400ED200AC024EA780AD000XC777EB500AD000",
+      "OrderNumber": "ON000000010"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300011",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.NKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000011"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300012",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.15.SKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000012"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300013",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.CKB490EC900XA454",
+      "OrderNumber": "ON000000013"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300014",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.28.SKB640EB400ED200AC024EA780AD000XC777EB500AD000",
+      "OrderNumber": "ON000000014"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300015",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.NKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000015"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300016",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.15.SKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000016"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300017",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.CKB490EC900XA454",
+      "OrderNumber": "ON000000017"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300018",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.28.SKB640EB400ED200AC024EA780AD000XC777EB500AD000",
+      "OrderNumber": "ON000000018"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300019",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.NKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000019"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300020",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.15.SKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000020"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300021",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.CKB490EC900XA454",
+      "OrderNumber": "ON000000021"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300022",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.28.SKB640EB400ED200AC024EA780AD000XC777EB500AD000",
+      "OrderNumber": "ON000000022"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300023",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.NKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000023"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300024",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.15.SKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000024"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300025",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.CKB490EC900XA454",
+      "OrderNumber": "ON000000025"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300026",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.28.SKB640EB400ED200AC024EA780AD000XC777EB500AD000",
+      "OrderNumber": "ON000000026"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300027",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.NKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000027"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300028",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.15.SKB640EB400EC600AC024EA780AC044XC777AC011",
+      "OrderNumber": "ON000000028"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300029",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.44.CKB490EC900XA454",
+      "OrderNumber": "ON000000029"
+    },
+    {
+      "retStatus": true,
+      "serialNumber": "SN12300030",
+      "status": "OK",
+      "TypeKey": "PNOZsmart.28.SKB640EB400ED200AC024EA780AD000XC777EB500AD000",
+      "OrderNumber": "ON000000030"
+    }
+  ],
+  "inProgress": []
+}

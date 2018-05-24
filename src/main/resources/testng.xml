@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AssemblyTableWebDriverTests">
+	<!-- Define browsers to test against -->
+	<test name="AssemblyTableWebDriverElectron">
+		<classes>
+			<!-- Define test classes to run -->
+
+			<!-- Test Cases for User Story: 8335 -->
+			<class name="com.selenium.testsuite.SampleTest" />
+			
+
+			<!-- Parameters for the above test classes -->
+			<parameter name="browserName" value="chrome"></parameter>
+		</classes>
+	</test>
+	<!-- Define parameters to apply to each test -->
+	<parameter name="baseURL" value="http://google.com"></parameter>
+</suite>

@@ -1,0 +1,1419 @@
+{
+  "availableActions": "addModule, removeModule, removeAllModules, setPotis, replaceModule",
+  "file": "typeKey.txt",
+  "simulatorCases": [
+    {
+      "name": "Wanted typeKey: PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+      "id": 1,
+      "description": "Happy Path where correct module is added followed by its poti settings",
+      "numberOfTypeIDs": 9,
+      "actionsList": [
+        {
+          "action": "addModule",
+          "module": "KA550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KA550",
+            "newValue": "KA630"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EA550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EA550",
+            "newValue": "EA730"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 2,
+            "module": "EB500",
+            "newValue": "EB300"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EC500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 3,
+            "module": "EC500",
+            "newValue": "EC700"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "AA055",
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 5,
+            "module": "EB500",
+            "newValue": "EB300"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EA550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "EA550",
+            "newValue": "EA260"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "AC055",
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "XC555",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 8,
+            "module": "XC555",
+            "newValue": "XC455"
+          },
+          "delay": 2000
+        }
+		
+        
+      ]
+    },
+	
+    {
+     "name": "Wanted typeKey: PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+      "id": 2,
+      "description": "Path involving remove of modules and adding of modules with poti set correctly",
+      "numberOfTypeIDs": 9,
+      "actionsList": [
+         {
+          "action": "addModule",
+          "module": "KB550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KB550",
+            "newValue": "KB630"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "removeModule",
+          "actionConfig": {
+            "position": 0,
+            "module": "KB630"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "KA630",
+          "delay": 2000
+        },
+				
+		{
+          "action": "addModule",
+          "module": "EA730",
+          "delay": 2000
+        },
+				
+		{
+          "action": "addModule",
+          "module": "EB300",
+          "delay": 2000
+        },
+		
+		
+		{
+          "action": "addModule",
+          "module": "EC500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 3,
+            "module": "EC500",
+            "newValue": "EC700"
+          },
+          "delay": 2000
+        },
+		
+		
+		{
+          "action": "addModule",
+          "module": "AA055",
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EB300",
+          "delay": 2000
+        },
+		
+		
+		{
+          "action": "addModule",
+          "module": "EA260",
+          "delay": 2000
+        },
+				
+		{
+          "action": "addModule",
+          "module": "AC055",
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "XC455",
+          "delay": 2000
+        }
+		        
+      ]
+    },
+    
+	{
+      "name": "Wanted typeKey: PNOZsmart.10.CKA630EA730EB300EC700AA055EB300EA260AC055XC455",
+      "id": 3,
+      "description": "Happy Path where correct module is added followed by its poti settings done incrementally one step at a time",
+      "numberOfTypeIDs": 9,
+      "actionsList": [
+        {
+          "action": "addModule",
+          "module": "KA550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KA550",
+            "newValue": "KA130"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KA130",
+            "newValue": "KA230"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KA230",
+            "newValue": "KA330"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KA330",
+            "newValue": "KA430"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KA430",
+            "newValue": "KA530"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KA530",
+            "newValue": "KA630"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EA550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EA550",
+            "newValue": "EA650"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EA650",
+            "newValue": "EA750"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EA750",
+            "newValue": "EA740"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EA740",
+            "newValue": "EA730"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 2,
+            "module": "EB500",
+            "newValue": "EB400"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 2,
+            "module": "EB400",
+            "newValue": "EB300"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EC500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 3,
+            "module": "EC500",
+            "newValue": "EC700"
+          },
+          "delay": 2000
+        },
+				
+		{
+          "action": "addModule",
+          "module": "AA055",
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 5,
+            "module": "EB500",
+            "newValue": "EB400"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 5,
+            "module": "EB400",
+            "newValue": "EB300"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EA550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "EA550",
+            "newValue": "EA450"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "EA450",
+            "newValue": "EA350"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "EA350",
+            "newValue": "EA250"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "EA250",
+            "newValue": "EA260"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "addModule",
+          "module": "AC055",
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "XC555",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 8,
+            "module": "XC555",
+            "newValue": "XC455"
+          },
+          "delay": 2000
+        }
+		
+        
+      ]
+    },
+	{
+      "name": "Wanted typeKey: PNOZsmart.53.CKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+      "id": 4,
+      "description": "Happy Path where correct module is added followed by its poti settings",
+      "numberOfTypeIDs": 9,
+      "actionsList": [
+        {
+          "action": "addModule",
+          "module": "KA550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KA550",
+            "newValue": "KA630"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EA550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EA550",
+            "newValue": "EA730"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EC500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 2,
+            "module": "EC500",
+            "newValue": "EC200"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "ED500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 3,
+            "module": "ED500",
+            "newValue": "ED700"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "AA055",
+          "delay": 2000
+        },
+        {
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 4,
+            "module": "AA055",
+            "newValue": "AA037"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 5,
+            "module": "EB500",
+            "newValue": "EB300"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EA550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "EA550",
+            "newValue": "EA260"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "AD000",
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "XD500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 8,
+            "module": "XD500",
+            "newValue": "XD400"
+          },
+          "delay": 2000
+        }
+		
+        
+      ]
+    },
+	
+    {
+     "name": "Wanted typeKey: PNOZsmart.53.CKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+      "id": 5,
+      "description": "Path involving remove of modules and adding of modules with poti set correctly",
+      "numberOfTypeIDs": 9,
+      "actionsList": [
+         {
+          "action": "addModule",
+          "module": "KB550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KB550",
+            "newValue": "KB630"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "removeModule",
+          "actionConfig": {
+            "position": 0,
+            "module": "KB630"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "KA630",
+          "delay": 2000
+        },
+				
+		{
+          "action": "addModule",
+          "module": "EA730",
+          "delay": 2000
+        },
+				
+		{
+          "action": "addModule",
+          "module": "EC200",
+          "delay": 2000
+        },
+		
+		
+		{
+          "action": "addModule",
+          "module": "ED700",
+          "delay": 2000
+        },
+		
+		
+		{
+          "action": "addModule",
+          "module": "AA037",
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EB300",
+          "delay": 2000
+        },
+		
+		
+		{
+          "action": "addModule",
+          "module": "EA260",
+          "delay": 2000
+        },
+				
+		{
+          "action": "addModule",
+          "module": "AD000",
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "XD400",
+          "delay": 2000
+        }
+		        
+      ]
+    },
+    
+	{
+      "name": "Wanted typeKey: PNOZsmart.53.CKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+      "id": 6,
+      "description": "Happy Path where correct module is added followed by its poti settings done incrementally one step at a time",
+      "numberOfTypeIDs": 9,
+      "actionsList": [
+        {
+          "action": "addModule",
+          "module": "KA550EA550EC500ED500AA055EB500EA550AD000XD500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KA550",
+            "newValue": "KA650"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KA650",
+            "newValue": "KA630"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EA550",
+            "newValue": "EA730"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 2,
+            "module": "EC500",
+            "newValue": "EC300"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 2,
+            "module": "EC300",
+            "newValue": "EC200"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 3,
+            "module": "ED500",
+            "newValue": "ED600"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 3,
+            "module": "ED600",
+            "newValue": "ED700"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 4,
+            "module": "AA055",
+            "newValue": "AA045"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 4,
+            "module": "AA045",
+            "newValue": "AA035"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 4,
+            "module": "AA035",
+            "newValue": "AA036"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 4,
+            "module": "AA036",
+            "newValue": "AA037"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 5,
+            "module": "EB500",
+            "newValue": "EB400"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 5,
+            "module": "EB400",
+            "newValue": "EB300"
+          },
+          "delay": 2000
+        },
+		
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "EA550",
+            "newValue": "EA450"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "EA450",
+            "newValue": "EA350"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "EA350",
+            "newValue": "EA250"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "EA250",
+            "newValue": "EA260"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 8,
+            "module": "XD500",
+            "newValue": "XD400"
+          },
+          "delay": 2000
+        }
+		        
+      ]
+    },
+	{
+      "name": "Wanted typeKey: PNOZsmart.30.CKB580EB300EC200ED700AC047EA730XA833",
+      "id": 7,
+      "description": "Happy Path where correct module is added followed by its poti settings",
+      "numberOfTypeIDs": 7,
+      "actionsList": [
+        {
+          "action": "addModule",
+          "module": "KB550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KB550",
+            "newValue": "KB580"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EB500",
+            "newValue": "EB300"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EC500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 2,
+            "module": "EC500",
+            "newValue": "EC200"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "ED500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 3,
+            "module": "ED500",
+            "newValue": "ED700"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "AC055",
+          "delay": 2000
+        },
+        {
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 4,
+            "module": "AC055",
+            "newValue": "AC047"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EA550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 5,
+            "module": "EA550",
+            "newValue": "EA730"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "XA555",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "XA555",
+            "newValue": "XA833"
+          },
+          "delay": 2000
+        }
+		
+				
+        
+      ]
+    },
+	
+    {
+     "name": "Wanted typeKey: PNOZsmart.30.CKB580EB300EC200ED700AC047EA730XA833",
+      "id": 8,
+      "description": "Path involving remove of modules and adding of modules with poti set correctly",
+      "numberOfTypeIDs": 7,
+      "actionsList": [
+         {
+          "action": "addModule",
+          "module": "KB550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KB550",
+            "newValue": "KB580"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "addModule",
+          "module": "EA500",
+          "delay": 2000
+        },
+				
+		{
+          "action": "removeModule",
+          "actionConfig": {
+            "position": 1,
+            "module": "EA500"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EB500",
+            "newValue": "EB300"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EB500",
+          "delay": 2000
+        },
+		
+		{
+          "action": "removeModule",
+          "actionConfig": {
+            "position": 2,
+            "module": "EB500"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EC500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 2,
+            "module": "EC500",
+            "newValue": "EC200"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "addModule",
+          "module": "EC500",
+          "delay": 2000
+        },
+		{
+          "action": "removeModule",
+          "actionConfig": {
+            "position": 3,
+            "module": "EC500"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "addModule",
+          "module": "ED500",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 3,
+            "module": "ED500",
+            "newValue": "ED700"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "addModule",
+          "module": "AC000",
+          "delay": 2000
+        },
+		{
+          "action": "removeModule",
+          "actionConfig": {
+            "position": 4,
+            "module": "AC000"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "AC055",
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 4,
+            "module": "AC055",
+            "newValue": "AC047"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "EA550",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 5,
+            "module": "EA550",
+            "newValue": "EA730"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "addModule",
+          "module": "XA555",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "XA555",
+            "newValue": "XA833"
+          },
+          "delay": 2000
+        }
+		
+		        
+      ]
+    },
+    
+	{
+      "name": "Wanted typeKey: PNOZsmart.30.CKB580EB300EC200ED700AC047EA730XA833",
+      "id": 9,
+      "description": "Happy Path where correct module is added followed by its poti settings done incrementally one step at a time",
+      "numberOfTypeIDs": 7,
+      "actionsList": [
+        {
+          "action": "addModule",
+          "module": "KB550EB500EC500ED500AC055EA550XA555",
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KB550",
+            "newValue": "KB560"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KB560",
+            "newValue": "KB570"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 0,
+            "module": "KB570",
+            "newValue": "KB580"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EB500",
+            "newValue": "EB400"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 1,
+            "module": "EB400",
+            "newValue": "EB300"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 2,
+            "module": "EC500",
+            "newValue": "EC400"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 2,
+            "module": "EC400",
+            "newValue": "EC300"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 2,
+            "module": "EC300",
+            "newValue": "EC200"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 3,
+            "module": "ED500",
+            "newValue": "ED600"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 3,
+            "module": "ED600",
+            "newValue": "ED700"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 4,
+            "module": "AC055",
+            "newValue": "AC045"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 4,
+            "module": "AC045",
+            "newValue": "AC046"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 4,
+            "module": "AC046",
+            "newValue": "AC047"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 5,
+            "module": "EA550",
+            "newValue": "EA650"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 5,
+            "module": "EA650",
+            "newValue": "EA750"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 5,
+            "module": "EA750",
+            "newValue": "EA740"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 5,
+            "module": "EA740",
+            "newValue": "EA730"
+          },
+          "delay": 2000
+        },
+		
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "XA555",
+            "newValue": "XA655"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "XA655",
+            "newValue": "XA755"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "XA755",
+            "newValue": "XA855"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "XA855",
+            "newValue": "XA845"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "XA845",
+            "newValue": "XA835"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "XA835",
+            "newValue": "XA834"
+          },
+          "delay": 2000
+        },
+		{
+          "action": "setPotis",
+          "actionConfig": {
+            "position": 6,
+            "module": "XA834",
+            "newValue": "XA833"
+          },
+          "delay": 2000
+        }
+		        
+      ]
+    },
+    {
+      "name": "RemoveAllModules",
+      "id": 0,
+      "description": "clears the workspace and emulates device being unpluged",
+      "numberOfTypeIDs": 1,
+      "actionsList": [
+        {
+          "action": "removeAllModules",
+          "delay": 2000
+        }
+      ]
+    }
+    
+  ]
+}

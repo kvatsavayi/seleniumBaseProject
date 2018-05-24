@@ -1,0 +1,21 @@
+{
+  "config": [
+    {
+      "plant": "Cork",
+      "station": "One",
+      "localCulture": "ie-en"
+    },
+    {
+      "plant": "Cork",
+      "station": "Two",
+      "localCulture": "ie-en"
+    },
+    {
+      "plant": "Cork",
+      "station": "Three",
+      "localCulture": "ie-en"
+    }
+  ],
+  "pool": [],
+  "inProgress": []
+}

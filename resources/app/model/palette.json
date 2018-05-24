@@ -1,0 +1,1156 @@
+{
+  "palette": {
+    "master_modules": [
+      {
+        "id": "mh20",
+        "image": "mh20.png",
+        "code": "KA",
+        "name": "Mastermodule module",
+        "type": "MASTER_INPUT",
+        "description": "2 inputs for 1 safety function, no outputs",
+        "potentiometers": [
+          {
+            "name": "special",
+            "image": "dialSpec.png",
+            "values": [
+              {
+                "name": "-",
+                "value": ""
+              },
+              {
+                "name": "-",
+                "value": ""
+              },
+              {
+                "name": "-",
+                "value": ""
+              },
+              {
+                "name": "Rip",
+                "value": ""
+              },
+              {
+                "name": "OFF",
+                "value": ""
+              },
+              {
+                "name": "Casc Tx/Rx",
+                "value": ""
+              },
+              {
+                "name": "Casc Rx",
+                "value": ""
+              },
+              {
+                "name": "-",
+                "value": ""
+              },
+              {
+                "name": "-",
+                "value": ""
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "mode",
+            "image": "dialMode.png",
+            "values": [
+              {
+                "name": "OSSD S",
+                "value": ""
+              },
+              {
+                "name": "OSSD F",
+                "value": ""
+              },
+              {
+                "name": "OSSD R",
+                "value": ""
+              },
+              {
+                "name": "OSSD A",
+                "value": ""
+              },
+              {
+                "name": "0",
+                "value": ""
+              },
+              {
+                "name": "Takte A",
+                "value": ""
+              },
+              {
+                "name": "Takte R",
+                "value": ""
+              },
+              {
+                "name": "Takte F",
+                "value": ""
+              },
+              {
+                "name": "Takte S",
+                "value": ""
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          }
+        ]
+      },
+      {
+        "id": "mh21",
+        "image": "mh21.png",
+        "code": "KB",
+        "name": "Mastermodule module",
+        "type": "MASTER_INPUT_OUTPUT",
+        "description": "2 inputs for 1 safety function, one semiconductor output",
+        "potentiometers": [
+          {
+            "name": "special",
+            "image": "dialSpec.png",
+            "values": [
+              {
+                "name": "-",
+                "value": ""
+              },
+              {
+                "name": "-",
+                "value": ""
+              },
+              {
+                "name": "-",
+                "value": ""
+              },
+              {
+                "name": "Rip",
+                "value": ""
+              },
+              {
+                "name": "OFF",
+                "value": ""
+              },
+              {
+                "name": "Casc Tx/Rx",
+                "value": ""
+              },
+              {
+                "name": "Casc Rx",
+                "value": ""
+              },
+              {
+                "name": "-",
+                "value": ""
+              },
+              {
+                "name": "-",
+                "value": ""
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "mode",
+            "image": "dialMode.png",
+            "values": [
+              {
+                "name": "OSSD S",
+                "value": ""
+              },
+              {
+                "name": "OSSD F",
+                "value": ""
+              },
+              {
+                "name": "OSSD R",
+                "value": ""
+              },
+              {
+                "name": "OSSD A",
+                "value": ""
+              },
+              {
+                "name": "0",
+                "value": ""
+              },
+              {
+                "name": "Takte A",
+                "value": ""
+              },
+              {
+                "name": "Takte R",
+                "value": ""
+              },
+              {
+                "name": "Takte F",
+                "value": ""
+              },
+              {
+                "name": "Takte S",
+                "value": ""
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          }
+        ]
+      }
+    ],
+    "io_modules": [
+      {
+        "id": "e40",
+        "image": "e40.png",
+        "code": "EA",
+        "name": "Input module",
+        "type": "INPUT",
+        "description": "4 inputs for 2 safety functions (AND), no outputs",
+        "potentiometers": [
+          {
+            "name": "mode",
+            "image": "dialMode.png",
+            "values": [
+              {
+                "name": "OSSD S",
+                "value": ""
+              },
+              {
+                "name": "OSSD F",
+                "value": ""
+              },
+              {
+                "name": "OSSD R",
+                "value": ""
+              },
+              {
+                "name": "OSSD A",
+                "value": ""
+              },
+              {
+                "name": "0",
+                "value": ""
+              },
+              {
+                "name": "Takte A",
+                "value": ""
+              },
+              {
+                "name": "Takte R",
+                "value": ""
+              },
+              {
+                "name": "Takte F",
+                "value": ""
+              },
+              {
+                "name": "Takte S",
+                "value": ""
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "mode",
+            "image": "dialMode.png",
+            "values": [
+              {
+                "name": "OSSD S",
+                "value": ""
+              },
+              {
+                "name": "OSSD F",
+                "value": ""
+              },
+              {
+                "name": "OSSD R",
+                "value": ""
+              },
+              {
+                "name": "OSSD A",
+                "value": ""
+              },
+              {
+                "name": "0",
+                "value": ""
+              },
+              {
+                "name": "Takte A",
+                "value": ""
+              },
+              {
+                "name": "Takte R",
+                "value": ""
+              },
+              {
+                "name": "Takte F",
+                "value": ""
+              },
+              {
+                "name": "Takte S",
+                "value": ""
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          }
+        ]
+      },
+      {
+        "id": "ez40",
+        "image": "ez40.png",
+        "code": "EB",
+        "name": "Input module",
+        "type": "INPUT",
+        "description": "4 inputs for 2 safety functions (OR), no outputs",
+        "potentiometers": [
+          {
+            "name": "mode",
+            "image": "dialMode.png",
+            "values": [
+              {
+                "name": "OSSD S",
+                "value": ""
+              },
+              {
+                "name": "OSSD F",
+                "value": ""
+              },
+              {
+                "name": "OSSD R",
+                "value": ""
+              },
+              {
+                "name": "OSSD A",
+                "value": ""
+              },
+              {
+                "name": "0",
+                "value": ""
+              },
+              {
+                "name": "Takte A",
+                "value": ""
+              },
+              {
+                "name": "Takte R",
+                "value": ""
+              },
+              {
+                "name": "Takte F",
+                "value": ""
+              },
+              {
+                "name": "Takte S",
+                "value": ""
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          }
+        ]
+      },
+      {
+        "id": "z3a",
+        "image": "z3a.png",
+        "code": "EC",
+        "name": "Input module",
+        "type": "INPUT",
+        "description": "2 inputs for two-hand control, 2 inputs for one safety function, no outputs",
+        "potentiometers": [
+          {
+            "name": "mode",
+            "image": "dialMode.png",
+            "values": [
+              {
+                "name": "OSSD S",
+                "value": ""
+              },
+              {
+                "name": "OSSD F",
+                "value": ""
+              },
+              {
+                "name": "OSSD R",
+                "value": ""
+              },
+              {
+                "name": "OSSD A",
+                "value": ""
+              },
+              {
+                "name": "0",
+                "value": ""
+              },
+              {
+                "name": "Takte A",
+                "value": ""
+              },
+              {
+                "name": "Takte R",
+                "value": ""
+              },
+              {
+                "name": "Takte F",
+                "value": ""
+              },
+              {
+                "name": "Takte S",
+                "value": ""
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          }
+        ]
+      },
+      {
+        "id": "z3c",
+        "image": "z3c.png",
+        "code": "ED",
+        "name": "Input module",
+        "type": "INPUT",
+        "description": "4 inputs for two-hand control, 2 inputs for one safety function, no outputs",
+        "potentiometers": [
+          {
+            "name": "mode",
+            "image": "dialMode.png",
+            "values": [
+              {
+                "name": "OSSD S",
+                "value": ""
+              },
+              {
+                "name": "OSSD F",
+                "value": ""
+              },
+              {
+                "name": "OSSD R",
+                "value": ""
+              },
+              {
+                "name": "OSSD A",
+                "value": ""
+              },
+              {
+                "name": "0",
+                "value": ""
+              },
+              {
+                "name": "Takte A",
+                "value": ""
+              },
+              {
+                "name": "Takte R",
+                "value": ""
+              },
+              {
+                "name": "Takte F",
+                "value": ""
+              },
+              {
+                "name": "Takte S",
+                "value": ""
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          }
+        ]
+      },
+      {
+        "id": "ah02del",
+        "image": "ah02.png",
+        "code": "AA",
+        "name": "Output module 1",
+        "type": "OUTPUT",
+        "description": "no inputs, 2 semiconductor outputs",
+        "potentiometers": [
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          },
+          {
+            "name": "time",
+            "image": "dialDelay.png",
+            "values": [
+              {
+                "name": "0s",
+                "value": "0"
+              },
+              {
+                "name": "0,1s",
+                "value": "0.1"
+              },
+              {
+                "name": "0,2s",
+                "value": "0.2"
+              },
+              {
+                "name": "0,5s",
+                "value": "0.5"
+              },
+              {
+                "name": "1s",
+                "value": "1"
+              },
+              {
+                "name": "2s",
+                "value": "2"
+              },
+              {
+                "name": "5s",
+                "value": "5"
+              },
+              {
+                "name": "10s",
+                "value": "10"
+              },
+              {
+                "name": "30s",
+                "value": "30"
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "factor",
+            "image": "dialFactor.png",
+            "values": [
+              {
+                "name": "1x",
+                "value": "1"
+              },
+              {
+                "name": "2x",
+                "value": "2"
+              },
+              {
+                "name": "3x",
+                "value": "3"
+              },
+              {
+                "name": "4x",
+                "value": "4"
+              },
+              {
+                "name": "5x",
+                "value": "5"
+              },
+              {
+                "name": "6x",
+                "value": "6"
+              },
+              {
+                "name": "7x",
+                "value": "7"
+              },
+              {
+                "name": "8x",
+                "value": "8"
+              },
+              {
+                "name": "10x",
+                "value": "10"
+              }
+            ],
+            "initialSetting": 4
+          }
+        ]
+      },
+      {
+        "id": "ar01del",
+        "image": "ar01.png",
+        "code": "AC",
+        "name": "Output module 1",
+        "type": "OUTPUT",
+        "description": "no inputs, 1 relay output",
+        "potentiometers": [
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          },
+          {
+            "name": "time",
+            "image": "dialDelay.png",
+            "values": [
+              {
+                "name": "0s",
+                "value": "0"
+              },
+              {
+                "name": "0,1s",
+                "value": "0.1"
+              },
+              {
+                "name": "0,2s",
+                "value": "0.2"
+              },
+              {
+                "name": "0,5s",
+                "value": "0.5"
+              },
+              {
+                "name": "1s",
+                "value": "1"
+              },
+              {
+                "name": "2s",
+                "value": "2"
+              },
+              {
+                "name": "5s",
+                "value": "5"
+              },
+              {
+                "name": "10s",
+                "value": "10"
+              },
+              {
+                "name": "30s",
+                "value": "30"
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "factor",
+            "image": "dialFactor.png",
+            "values": [
+              {
+                "name": "1x",
+                "value": "1"
+              },
+              {
+                "name": "2x",
+                "value": "2"
+              },
+              {
+                "name": "3x",
+                "value": "3"
+              },
+              {
+                "name": "4x",
+                "value": "4"
+              },
+              {
+                "name": "5x",
+                "value": "5"
+              },
+              {
+                "name": "6x",
+                "value": "6"
+              },
+              {
+                "name": "7x",
+                "value": "7"
+              },
+              {
+                "name": "8x",
+                "value": "8"
+              },
+              {
+                "name": "10x",
+                "value": "10"
+              }
+            ],
+            "initialSetting": 4
+          }
+        ]
+      },
+      {
+        "id": "ah02nodel",
+        "image": "ah02nodel.png",
+        "code": "AB",
+        "name": "Output module 1",
+        "type": "OUTPUT",
+        "description": "no inputs, 2 semiconductor outputs",
+        "potentiometers": [
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          }
+        ]
+      },
+      {
+        "id": "ar01nodel",
+        "image": "ar01nodel.png",
+        "code": "AD",
+        "name": "Output module 1",
+        "type": "OUTPUT",
+        "description": "no inputs, 1 relay output",
+        "potentiometers": [
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          }
+        ]
+      },
+      {
+        "id": "eah22del",
+        "image": "eah22.png",
+        "code": "XA",
+        "name": "Output module 1",
+        "type": "INPUT_OUTPUT",
+        "description": "2 inputs for 1 safety function, 2 semiconductor outputs",
+        "potentiometers": [
+          {
+            "name": "mode",
+            "image": "dialMode.png",
+            "values": [
+              {
+                "name": "OSSD S",
+                "value": ""
+              },
+              {
+                "name": "OSSD F",
+                "value": ""
+              },
+              {
+                "name": "OSSD R",
+                "value": ""
+              },
+              {
+                "name": "OSSD A",
+                "value": ""
+              },
+              {
+                "name": "0",
+                "value": ""
+              },
+              {
+                "name": "Takte A",
+                "value": ""
+              },
+              {
+                "name": "Takte R",
+                "value": ""
+              },
+              {
+                "name": "Takte F",
+                "value": ""
+              },
+              {
+                "name": "Takte S",
+                "value": ""
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "time",
+            "image": "dialDelay.png",
+            "values": [
+              {
+                "name": "0s",
+                "value": "0"
+              },
+              {
+                "name": "0,1s",
+                "value": "0.1"
+              },
+              {
+                "name": "0,2s",
+                "value": "0.2"
+              },
+              {
+                "name": "0,5s",
+                "value": "0.5"
+              },
+              {
+                "name": "1s",
+                "value": "1"
+              },
+              {
+                "name": "2s",
+                "value": "2"
+              },
+              {
+                "name": "5s",
+                "value": "5"
+              },
+              {
+                "name": "10s",
+                "value": "10"
+              },
+              {
+                "name": "30s",
+                "value": "30"
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "factor",
+            "image": "dialFactor.png",
+            "values": [
+              {
+                "name": "1x",
+                "value": "1"
+              },
+              {
+                "name": "2x",
+                "value": "2"
+              },
+              {
+                "name": "3x",
+                "value": "3"
+              },
+              {
+                "name": "4x",
+                "value": "4"
+              },
+              {
+                "name": "5x",
+                "value": "5"
+              },
+              {
+                "name": "6x",
+                "value": "6"
+              },
+              {
+                "name": "7x",
+                "value": "7"
+              },
+              {
+                "name": "8x",
+                "value": "8"
+              },
+              {
+                "name": "10x",
+                "value": "10"
+              }
+            ],
+            "initialSetting": 4
+          }
+        ]
+      },
+      {
+        "id": "ear21del",
+        "image": "ear21.png",
+        "code": "XC",
+        "name": "Output module 1",
+        "type": "INPUT_OUTPUT",
+        "description": "2 inputs for 1 safety function, 1 relay outputs",
+        "potentiometers": [
+          {
+            "name": "mode",
+            "image": "dialMode.png",
+            "values": [
+              {
+                "name": "OSSD S",
+                "value": ""
+              },
+              {
+                "name": "OSSD F",
+                "value": ""
+              },
+              {
+                "name": "OSSD R",
+                "value": ""
+              },
+              {
+                "name": "OSSD A",
+                "value": ""
+              },
+              {
+                "name": "0",
+                "value": ""
+              },
+              {
+                "name": "Takte A",
+                "value": ""
+              },
+              {
+                "name": "Takte R",
+                "value": ""
+              },
+              {
+                "name": "Takte F",
+                "value": ""
+              },
+              {
+                "name": "Takte S",
+                "value": ""
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "time",
+            "image": "dialDelay.png",
+            "values": [
+              {
+                "name": "0s",
+                "value": "0"
+              },
+              {
+                "name": "0,1s",
+                "value": "0.1"
+              },
+              {
+                "name": "0,2s",
+                "value": "0.2"
+              },
+              {
+                "name": "0,5s",
+                "value": "0.5"
+              },
+              {
+                "name": "1s",
+                "value": "1"
+              },
+              {
+                "name": "2s",
+                "value": "2"
+              },
+              {
+                "name": "5s",
+                "value": "5"
+              },
+              {
+                "name": "10s",
+                "value": "10"
+              },
+              {
+                "name": "30s",
+                "value": "30"
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "factor",
+            "image": "dialFactor.png",
+            "values": [
+              {
+                "name": "1x",
+                "value": "1"
+              },
+              {
+                "name": "2x",
+                "value": "2"
+              },
+              {
+                "name": "3x",
+                "value": "3"
+              },
+              {
+                "name": "4x",
+                "value": "4"
+              },
+              {
+                "name": "5x",
+                "value": "5"
+              },
+              {
+                "name": "6x",
+                "value": "6"
+              },
+              {
+                "name": "7x",
+                "value": "7"
+              },
+              {
+                "name": "8x",
+                "value": "8"
+              },
+              {
+                "name": "10x",
+                "value": "10"
+              }
+            ],
+            "initialSetting": 4
+          }
+        ]
+      },
+      {
+        "id": "eah22nodel",
+        "image": "eah22nodel.png",
+        "code": "XB",
+        "name": "Output module 1",
+        "type": "INPUT_OUTPUT",
+        "description": "2 inputs for 1 safety function, 2 semiconductor outputs",
+        "potentiometers": [
+          {
+            "name": "mode",
+            "image": "dialMode.png",
+            "values": [
+              {
+                "name": "OSSD S",
+                "value": ""
+              },
+              {
+                "name": "OSSD F",
+                "value": ""
+              },
+              {
+                "name": "OSSD R",
+                "value": ""
+              },
+              {
+                "name": "OSSD A",
+                "value": ""
+              },
+              {
+                "name": "0",
+                "value": ""
+              },
+              {
+                "name": "Takte A",
+                "value": ""
+              },
+              {
+                "name": "Takte R",
+                "value": ""
+              },
+              {
+                "name": "Takte F",
+                "value": ""
+              },
+              {
+                "name": "Takte S",
+                "value": ""
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          }
+        ]
+      },
+      {
+        "id": "ear21nodel",
+        "image": "ear21nodel.png",
+        "code": "XD",
+        "name": "Output module 1",
+        "type": "INPUT_OUTPUT",
+        "description": "2 inputs for 1 safety function, 1 relay outputs",
+        "potentiometers": [
+          {
+            "name": "mode",
+            "image": "dialMode.png",
+            "values": [
+              {
+                "name": "OSSD S",
+                "value": ""
+              },
+              {
+                "name": "OSSD F",
+                "value": ""
+              },
+              {
+                "name": "OSSD R",
+                "value": ""
+              },
+              {
+                "name": "OSSD A",
+                "value": ""
+              },
+              {
+                "name": "0",
+                "value": ""
+              },
+              {
+                "name": "Takte A",
+                "value": ""
+              },
+              {
+                "name": "Takte R",
+                "value": ""
+              },
+              {
+                "name": "Takte F",
+                "value": ""
+              },
+              {
+                "name": "Takte S",
+                "value": ""
+              }
+            ],
+            "initialSetting": 4
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          },
+          {
+            "name": "empty",
+            "values": [],
+            "initialSetting": 0
+          }
+        ]
+      }
+    ]
+  }
+}

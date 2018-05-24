@@ -1,0 +1,48 @@
+{
+    "config": [
+        {
+            "plant": "Cork",
+            "station": "One",
+            "localCulture": "ie-en"
+        }
+    ],
+    "pool": [
+        {
+            "retStatus": true,
+            "serialNumber": "SN12300001",
+            "status": "OK",
+            "TypeKey": "PNOZsmart.21.SKA630EA730EC200ED700AA037EB300EA260AD000XD400",
+            "OrderNumber": "ON000000001"
+        },
+        {
+            "retStatus": true,
+            "serialNumber": "SN12300002",
+            "status": "OK",
+            "TypeKey": "PNOZsmart.30.NKB580EB300EC200ED700AC047EA730XA833",
+            "OrderNumber": "ON000000002"
+        },
+        {
+            "retStatus": false,
+            "serialNumber": "SN12300003",
+            "status": "NOK",
+            "TypeKey": "PNOZsmart.28.SKB640EB400ED200AC024EA780AD000XC777EB500AD000",
+            "stateLocLng": "This is a business failure",
+            "retFaultDescr": {
+                "retMessageClass": "B",
+                "retMessageId": 331
+            }
+        },
+        {
+            "retStatus": false,
+            "serialNumber": "SN12300004",
+            "status": "NOK",
+            "TypeKey": "PNOZsmart.28.SKB640EB400ED200AC024EA780AD000XC777EB500AD000",
+            "stateLocLng": "This is a system failure",
+            "retFaultDescr": {
+                "retMessageClass": "S",
+                "retMessageId": 477
+            }
+        }
+    ],
+    "inProgress": []
+}

@@ -1,0 +1,35 @@
+{"config": [
+    {
+      "plant": "Cork",
+      "station": "One",
+      "localCulture": "ie-en"
+    },
+    {
+      "plant": "Cork",
+      "station": "Two",
+      "localCulture": "ie-en"
+    },
+    {
+      "plant": "Cork",
+      "station": "Three",
+      "localCulture": "ie-en"
+    }
+  ],
+  "pool": [
+    {
+      "retStatus": false,
+      "serialNumber": "SN12300001",
+      "status": "NOK",
+      "TypeKey": "PNOZsmart.44.CKB490EC900XA454",
+      "OrderNumber": "ON000000001"
+    },
+    {
+      "retStatus": false,
+      "serialNumber": "SN12300002",
+      "status": "NOK",
+      "TypeKey": "PNOZsmart.28.SKB640EB400ED200AC024EA780AD000XC777EB500AD000",
+      "OrderNumber": "ON000000002"
+    }
+  ],
+  "inProgress": []
+}
